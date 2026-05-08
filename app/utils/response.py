@@ -30,7 +30,7 @@ def GeT_PLayer_level(uid, Token,region):
         elif region in {"BR", "US", "SAC", "NA"}:
             uri = "https://client.us.freefiremobile.com/"
         else:
-             uri = "https://clientbp.ggwhitehawk.com/"
+             uri = "https://clientbp.ggpolarbear.com/"
         
         url = uri+"GetPlayerPersonalShow"
         print(url,uid)
